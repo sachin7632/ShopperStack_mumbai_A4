@@ -44,7 +44,7 @@ public class Base_Text {
 	public WebDriverWait wait;
 	public homepage homepage;
 	public Java_Utility javautility= new Java_Utility();
-	public my_profile_page myprofilepage;
+	public my_profile_page  myprofilepage;
 	public webdriver_utility webdriverutility;
 	public address_form_page addaddressformpage;
 	public webdriver_utility Webdriverutility = new webdriver_utility();
