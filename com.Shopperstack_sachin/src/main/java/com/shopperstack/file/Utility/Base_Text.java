@@ -72,7 +72,7 @@ public class Base_Text {
 	{System.out.println("@Beforeclass");
    String browserName = fileutility.readdatafrompropertyfile("browserName");
 	String url= fileutility.readdatafrompropertyfile("url");
-	
+	 
 	// String browserName=System.getProperty("browserName");
 	// String url=System.getProperty("url");
 	
