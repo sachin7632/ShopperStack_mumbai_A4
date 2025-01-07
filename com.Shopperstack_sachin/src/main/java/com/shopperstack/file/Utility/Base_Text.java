@@ -49,7 +49,7 @@ public class Base_Text {
 	public address_form_page addaddressformpage;
 	public webdriver_utility Webdriverutility = new webdriver_utility();
 	
-	//sss
+	
 	
 	
 	
@@ -70,8 +70,12 @@ public class Base_Text {
 	@BeforeClass
 	public void BeforeClass() throws IOException
 	{System.out.println("@Beforeclass");
-	String browserName = fileutility.readdatafrompropertyfile("browserName");
-	String url= fileutility.readdatafrompropertyfile("url");
+	//String browserName = fileutility.readdatafrompropertyfile("browserName");
+	//String url= fileutility.readdatafrompropertyfile("url");
+	
+	 String browserName=System.getProperty("browserName");
+	 String url=System.getProperty("url");
+	
 	if(browserName.contains("chrome")) {
 		driver= new ChromeDriver();
 	}
